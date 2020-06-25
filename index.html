@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>OldTimer Auto</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	
+</head>
+<body> 
+	<center> <img src="img/logo.jpg" style="float"> </center>
+	<center><h1>ZABYTKOWE AUTA NA RÓŻNE OKAZJE</h1></center>
+	<h2><center>Witam!<br/>
+	OldTimer auto to firma z wieloletnim stażem<br/>
+	Zajmujemy się okazjonalnym wypożyczaniem aut zabytkowych.<br/>
+	Również na te szczególne okazje mamy dla was doświadczonych kierowców,<br/>
+	którzy bezpiecznie przewiozą was w ustalone miejsca.<br/>
+	Zapraszamy do zapoznania się z ofertą.<br/><h2>
+	<br/>
+	<a href="oferta.html" target="_blank" title="Zobacz ofertę naszej firmy!"> 
+	<img src="img/OFERTA.jpg" width="150" height="75" >
+	</a>
+	<br/>
+	<a href="Kontakt.html" target="_blank" title="Sprawdź jak możesz się z nami skontaktować!"> 
+	<img src="img/Kontakt.jpg" width="150" height="75" >
+	<br/>
+	</a>
+	<a href="Graleria.html" target="_blank" title="Zobacz jakie auta przygotowalśmy dla was!"> 
+	<img src="img/Galeria.jpg" width="150" height="75" >
+	</a>
+	
+	
+	 <h5><div id="zegar"></div>
+ 
+    <script type="text/javascript">
+ 
+    function czas() {
+        var data = new Date(); 
+        var godzina = data.getHours(); 
+        var minuta = data.getMinutes(); 
+        var sekunda = data.getSeconds(); 
+ 
+        
+        if (godzina < 10) {
+            godzina = "0" + godzina;
+        }
+        if (minuta < 10) {
+            minuta = "0" + minuta;
+        }
+        if (sekunda < 10) {
+            sekunda = "0" + sekunda;
+        }
+
+        document.querySelector("#zegar").innerHTML = + godzina + " : " + minuta + " : " + sekunda;
+ 
+        setTimeout(czas, 1000); 
+    }
+    window.addEventListener("load", czas); 
+    </script></br></h5>
+	<div id="zawartosc">
+			<a href="https://www.facebook.pl" target="_blank "title="Link do facebook'a"> 
+			<img src="img/fb.jpg" width="45" height="40">
+			</a>
+			</br>
+			</br>
+			Licznik Odwiedzin:</br><a href="http://www.licz.pl" title="Darmowe Liczniki"><font color="#000000"><script src="http://www.licz.pl/counter.php?name=zaliczanko234&start=0"></script></font></a><a href="http://www.licz.pl"><img src="http://www.licz.pl/donotalterthecode.gif" width="5" height="5" border="0"></a>
+			
+</body>
+</html>
